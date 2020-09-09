@@ -16,7 +16,7 @@ const nuevaResta = 10-5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1.05;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -35,29 +35,29 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  var suma= x+y;
+  var suma= x+y
   return suma;
 }
 
 function resta(x, y) {
   // Resta "x" de "y" y devuelve el valor
   // Tu código:
-  var resta= x-y;
+  var resta= x-y
   return resta;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  var multiplicar= x*y;
+  var multiplicar= x*y
   return multiplicar;  
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  var divide= x/y
-  return divide;  
+  var division=x/y
+  return division;  
 }
 
 function sonIguales(x, y) {

@@ -96,19 +96,20 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   var num=numero;
-//  for (i=1; i<=num; i++){
-
-
-    for (j=1;j<=num;j++){
-      while (num%j===0){
-      var r=r+1;    
-      }  
-      return r=r+1;
-    }
-    return r;
-//  }}
+  var nom=0;
+  for (i=1; i<=num; i++){
+    while (num%i===0){
+      var nom=nom+1;
+      i++;
+    } 
+  }
+  if (nom===2){
+    i=true;
+  } else {
+    i=false;
+  }
+  return i;
 }
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 

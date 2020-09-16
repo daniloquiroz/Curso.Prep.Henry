@@ -113,13 +113,11 @@ function multiplicarArgumentos() {
   // Tu código:
   var multipli=1;
   for(var i=0;i<arguments.length;i++){
-    arguments[i];
-    multipli = multipli*arguments[i];
-  }
-  if (arguments.length<1){
-    multipli=0;
-  }
-  return multipli;
+    var multipli = multipli*arguments[i];
+  } 
+  if (arguments.length>0){
+    return multipli;
+  } else { return 0}
 }
 
 // No modificar nada debajo de esta línea
